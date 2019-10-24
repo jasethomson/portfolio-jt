@@ -247,7 +247,7 @@ nav ul li a {
 
 
 #header .header-content {
-  height: 100vh;
+  height: 145vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -264,7 +264,7 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -280,7 +280,7 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -477,6 +477,7 @@ nav ul li a {
 
 .journal-block .journal-info img {
   max-width: 100%;
+  border-radius: 15%;
 }
 
 .journal-block .journal-info .journal-txt {
