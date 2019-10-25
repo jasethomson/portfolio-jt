@@ -291,8 +291,6 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #about {
-  width: 100%;
-  height: auto;
   padding-top: 190px;
   background: url("../images/water-aboutme.jpg") repeat scroll center center / cover;
   height: 100vh;
@@ -312,6 +310,18 @@ nav ul li a {
   margin-left: 40px;
   height: 400px;
   object-fit: cover;
+}
+
+.about-descr {
+  box-sizing: border-box;
+  padding: 3%;
+  position: relative;
+  bottom: 18%;
+}
+
+.picContain{
+  position: relative;
+  bottom: 10%;
 }
 
 #about .about-descr .p-heading {
@@ -409,9 +419,29 @@ nav ul li a {
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
+.tech{
+  width: 8vw;
+  height: 13vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+
+  border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tech-stack > h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 45vh;
+  background: url("../images/tech.jpg") repeat scroll center center / cover;
+  height: 100vh;
+  width: 100%;
 }
 
 #portfolio .portfolio-list {
@@ -470,11 +500,6 @@ nav ul li a {
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
 
-#mealplanner{
-  height: 177px;
-  left: 100px;
-}
-
 #journal,  #journal-blog {
   /* height: auto;
   width: 100%; */
@@ -504,7 +529,7 @@ nav ul li a {
 
 .journal-block .journal-info img {
   max-width: 100%;
-  border-radius: 15%;
+  border-radius: 1%;
 }
 
 .journal-block .journal-info .journal-txt {
@@ -518,7 +543,21 @@ nav ul li a {
   margin-top: 5%;
 }
 
+.item1{
+  position: absolute;
+  left: 0;
 }
+
+.item2{
+  position: absolute;
+  left: 33.34%;
+}
+
+.item3{
+  position: absolute;
+  left: 66.67%;
+}
+
 
 .journal-block .journal-info .journal-txt h4 a {
   display: block;
