@@ -409,6 +409,11 @@ nav ul li a {
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
+.tech{
+  width: 100px;
+  height: 100px;
+}
+
 #portfolio {
   position: relative;
   padding-bottom: 50px;
@@ -470,11 +475,6 @@ nav ul li a {
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
 
-#mealplanner{
-  height: 177px;
-  left: 100px;
-}
-
 #journal,  #journal-blog {
   /* height: auto;
   width: 100%; */
@@ -504,7 +504,7 @@ nav ul li a {
 
 .journal-block .journal-info img {
   max-width: 100%;
-  border-radius: 15%;
+  border-radius: 1%;
 }
 
 .journal-block .journal-info .journal-txt {
@@ -518,7 +518,21 @@ nav ul li a {
   margin-top: 5%;
 }
 
+.item1{
+  position: absolute;
+  left: 0;
 }
+
+.item2{
+  position: absolute;
+  left: 33.34%;
+}
+
+.item3{
+  position: absolute;
+  left: 66.67%;
+}
+
 
 .journal-block .journal-info .journal-txt h4 a {
   display: block;
