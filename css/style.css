@@ -312,6 +312,11 @@ nav ul li a {
   object-fit: cover;
 }
 
+.about-descr {
+  box-sizing: border-box;
+  padding: 3%;
+}
+
 #about .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
@@ -408,8 +413,14 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 .tech{
-  width: 100px;
-  height: 100px;
+  width: 8vw;
+  height: 13vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+
+  border-radius: 5%;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
