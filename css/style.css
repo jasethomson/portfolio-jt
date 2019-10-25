@@ -315,6 +315,13 @@ nav ul li a {
 .about-descr {
   box-sizing: border-box;
   padding: 3%;
+  position: relative;
+  bottom: 18%;
+}
+
+.picContain{
+  position: relative;
+  bottom: 10%;
 }
 
 #about .about-descr .p-heading {
