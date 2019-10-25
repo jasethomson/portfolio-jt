@@ -128,6 +128,7 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: antiquewhite;
 }
 
 .form-control {
@@ -471,12 +472,15 @@ nav ul li a {
 
 #mealplanner{
   height: 177px;
+  left: 100px;
 }
 
 #journal,  #journal-blog {
-  height: auto;
+  /* height: auto;
+  width: 100%; */
+  background: url("../images/projects.jpg") repeat scroll center center / cover;
+  height: 100vh;
   width: 100%;
-  background: #f7f7f7;
   padding-bottom: 60px;
   position: relative;
 }
@@ -485,6 +489,8 @@ nav ul li a {
   background: #fff;
   padding-bottom: 30px;
 }
+
+
 
 #journal .journal-block {
   display: inline-block;
@@ -504,6 +510,14 @@ nav ul li a {
 .journal-block .journal-info .journal-txt {
   padding: 25px 0px;
   position: relative;
+}
+
+.journal-txt{
+  background-color: antiquewhite;
+  border-radius: 3%;
+  margin-top: 5%;
+}
+
 }
 
 .journal-block .journal-info .journal-txt h4 a {
@@ -534,6 +548,10 @@ nav ul li a {
   font-size: 14px;
   line-height: 24px;
 }
+
+.journal-txt > .separator{
+  color: darkslateblue;
+  font-size: 2rem;
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
