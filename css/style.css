@@ -500,6 +500,11 @@ nav ul li a {
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
 
+.list-links {
+  font-size: 2rem;
+}
+
+
 #journal,  #journal-blog {
   /* height: auto;
   width: 100%; */
@@ -573,6 +578,15 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+.projectTitle{
+  /* display: flex; */
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  color: #292929;
+}
+
 .journal-block .journal-info .journal-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -591,7 +605,7 @@ nav ul li a {
 .journal-txt > .separator{
   color: darkslateblue;
   font-size: 2rem;
-
+}
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
