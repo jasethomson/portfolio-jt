@@ -739,6 +739,19 @@ nav ul li a {
 #journal {
   height: 100%;
 }
+.paddsection{
+  padding-top: 69px;
+  padding-bottom: 0px;
+}
+#portfolio{
+  padding-bottom: 0px;
+}
+#contact {
+  background-color: white;
+}
+.tech{
+  height: 100%;
+}
 }
 
 
