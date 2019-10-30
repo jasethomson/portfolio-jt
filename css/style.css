@@ -421,7 +421,7 @@ nav ul li a {
 
 .tech{
   width: 8vw;
-  height: 13vh;
+  height: 14vh;
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 8%;
@@ -429,6 +429,10 @@ nav ul li a {
 
   border-radius: 5%;
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+.techStackIcon{
+  margin-bottom: 5%;
 }
 
 .tech-stack > h2{
@@ -739,6 +743,12 @@ nav ul li a {
   padding-top: 69px;
   padding-bottom: 0px;
 }
+.tech{
+  width: 12vw;
+}
+.techStackIcon{
+  margin-bottom: 4.5%;
+}
 }
 
 /* ipad portait */
@@ -761,6 +771,14 @@ nav ul li a {
 }
 .tech{
   height: 100%;
+  width: 16vw;
+}
+.techStackIcon{
+  margin-bottom: 4.5%;
+}
+
+.journal-block .journal-info .journal-txt p{
+  font-size: 20px;
 }
 
 }
@@ -786,6 +804,7 @@ nav ul li a {
 }
 .tech{
   height: 100%;
+  margin-bottom: 20px;
 }
 .paddsection{
   padding-top: 69px;
@@ -793,6 +812,9 @@ nav ul li a {
 }
 #portfolio{
   padding-bottom: 114vh;
+}
+.techStackIcon{
+  margin-bottom: 4.5%;
 }
 }
 
@@ -814,6 +836,10 @@ nav ul li a {
   margin-top: 100px;
 }
 .tech{
-  height: 7vh;
+  height: 8vh;
+  width: 20vw;
+}
+.techStackIcon{
+  margin-top: 0;
 }
 }
