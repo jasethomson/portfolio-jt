@@ -419,6 +419,11 @@ nav ul li a {
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
 
+.techTitle{
+  color: white;
+  font-weight: bold;
+}
+
 .tech{
   width: 8vw;
   height: 14vh;
@@ -803,12 +808,14 @@ nav ul li a {
   background-color: white;
 }
 .tech{
-  height: 100%;
-  margin-bottom: 20px;
+  height: 62%;
+  margin-bottom: 5px;
+  padding-bottom: 0;
 }
 .paddsection{
   padding-top: 69px;
   padding-bottom: 0px;
+  padding-top: 0px;
 }
 #portfolio{
   padding-bottom: 114vh;
@@ -841,5 +848,8 @@ nav ul li a {
 }
 .techStackIcon{
   margin-top: 0;
+}
+.paddsection{
+  padding-top: 0;
 }
 }
