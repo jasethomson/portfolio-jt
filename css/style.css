@@ -823,6 +823,9 @@ nav ul li a {
 .techStackIcon{
   margin-bottom: 4.5%;
 }
+h2 {
+  padding-top: 20px;
+}
 }
 
 /* iphone 6/7/8 portait */
@@ -851,5 +854,11 @@ nav ul li a {
 }
 .paddsection{
   padding-top: 0;
+}
+h2 {
+  padding-top: 20px;
+}
+#portfolio{
+  height: 110vh;
 }
 }
