@@ -90,6 +90,10 @@ p {
   line-height: 28px;
 }
 
+.nameText{
+  font-size: 3.8vmin;
+}
+
 ::-moz-selection {
   background: #b8a07e;
   color: #fff;
@@ -193,7 +197,6 @@ nav {
   float: right;
   line-height: 32px;
   margin-bottom: 0;
-  padding-top: 16px;
 }
 
 nav ul li {
@@ -582,8 +585,8 @@ nav ul li a {
 
 .projectTitle{
   /* display: flex; */
-  font-size: 19px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 30px;
   margin: 0 0 13px 0;
   font-weight: 500;
   color: #292929;
