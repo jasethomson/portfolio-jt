@@ -425,6 +425,7 @@ nav ul li a {
 .techTitle{
   color: white;
   font-weight: bold;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .tech{
@@ -446,6 +447,10 @@ nav ul li a {
 .tech-stack > h2{
   font-size: 2rem;
   font-weight: bold;
+}
+
+.techStackFontBorder {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #portfolio {
