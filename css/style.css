@@ -91,7 +91,7 @@ p {
 }
 
 #myNameTitle {
-  text-shadow: -3px 0 #03060C, 0 3px #03060C, 3px 0 #03060C, 0 -3px #03060C;
+  text-shadow: -1px 0 #03060C, 0 1px #03060C, 1px 0 #03060C, 0 -1px #03060C;
 }
 
 .nameText{
