@@ -90,6 +90,10 @@ p {
   line-height: 28px;
 }
 
+#myNameTitle {
+  text-shadow: -3px 0 #03060C, 0 3px #03060C, 3px 0 #03060C, 0 -3px #03060C;
+}
+
 .nameText{
   font-size: 3.8vmin;
 }
