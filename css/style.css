@@ -91,7 +91,7 @@ p {
 }
 
 #myNameTitle {
-  text-shadow: -3px 0 #03060C, 0 3px #03060C, 3px 0 #03060C, 0 -3px #03060C;
+  text-shadow: -1px 0 #03060C, 0 1px #03060C, 1px 0 #03060C, 0 -1px #03060C;
 }
 
 .nameText{
@@ -250,15 +250,14 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  background: url("../images/resized-bkgd-img.jpg") repeat scroll center center / cover;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
 }
 
 
 #header .header-content {
-  height: 145vh;
-  text-align: left;
+  padding-top: 70vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -296,6 +295,10 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  Aout-us
 /*-----------------------------------------------------------------------------------*/
+
+#me {
+  padding: 10vh 0;
+}
 
 #about {
   padding-top: 190px;
@@ -524,11 +527,11 @@ nav ul li a {
 .list-links {
   font-size: 2rem;
 }
-
+.journal-txt-container{
+  height: 25vh;
+}
 
 #journal,  #journal-blog {
-  /* height: auto;
-  width: 100%; */
   background: url("../images/projects.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
@@ -593,7 +596,6 @@ nav ul li a {
 }
 
 .projectTitle{
-  /* display: flex; */
   font-size: 1.6rem;
   line-height: 30px;
   margin: 0 0 13px 0;
@@ -746,26 +748,29 @@ nav ul li a {
 @media only screen and  (min-width: 769px) and (max-width: 1024px){
   #about {
   height: 100%;
-}
-#journal {
-  height: 100%;
-}
-.header-content > h1 {
-  margin-top: 80px;
-}
-#contact {
-  background-color: white;
-}
-.paddsection{
-  padding-top: 69px;
-  padding-bottom: 0px;
-}
-.tech{
-  width: 12vw;
-}
-.techStackIcon{
-  margin-bottom: 4.5%;
-}
+  }
+  #journal {
+    height: 100%;
+  }
+  .header-content > h1 {
+    margin-top: 80px;
+  }
+  #contact {
+    background-color: white;
+  }
+  .paddsection{
+    padding-top: 69px;
+    padding-bottom: 0px;
+  }
+  .tech{
+    width: 12vw;
+  }
+  .techStackIcon{
+    margin-bottom: 4.5%;
+  }
+  #header .header-content {
+    padding-top: 60vh;
+  }
 }
 
 /* ipad portait */
@@ -800,7 +805,12 @@ nav ul li a {
 .separator{
   font-size: 20px;
 }
-
+  #header .header-content {
+    padding-top: 65vh;
+  }
+  .header-content h1 {
+    font-size: 20px;
+  }
 }
 
 
@@ -841,6 +851,12 @@ nav ul li a {
 h2 {
   padding-top: 20px;
 }
+  #header .header-content {
+    padding-top: 44vh;
+  }
+  .header-content h1 {
+    font-size: 20px;
+  }
 }
 
 /* iphone 6/7/8 portait */
@@ -876,4 +892,10 @@ h2 {
 #portfolio{
   height: 110vh;
 }
+  #header .header-content {
+    padding-top: 55vh;
+  }
+  .header-content h1 {
+    font-size: 20px;
+  }
 }
